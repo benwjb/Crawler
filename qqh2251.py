@@ -90,7 +90,7 @@ def getImg(url,z):
 
     
     for j in range(int(z)):            #后面下一页的内容
-        t=len(url_list2)
+        t=len(url_list2)-1
         x=t+1
         print(x)    
         print(url_list2[t][:41]+'%s'% (x)+".html")
